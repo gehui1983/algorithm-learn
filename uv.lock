@@ -1,0 +1,23 @@
+version = 1
+revision = 3
+requires-python = ">=3.11"
+
+[[package]]
+name = "algorithm-learn"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "flak" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "flak", specifier = ">=0.1.5" }]
+
+[[package]]
+name = "flak"
+version = "0.1.5"
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/88/2a/95d4213165249832fbda752f66fe040bfcd148d96554a9d844307bd9600b/flak-0.1.5.tar.gz", hash = "sha256:1427fd089c58be5a39c0397b9292e71bc6dd606f0691faff7114a46b273b9218", size = 15195, upload-time = "2025-06-27T20:19:05.343Z" }
+wheels = [
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/50/99/308e4aaf7cc8cbbd2db35f790cee04086c4f1ae16924d764b32d73213c43/flak-0.1.5-py3-none-any.whl", hash = "sha256:679cc93788a68a9d86022d34dd9a729b97a093034603d1d64ce40d9c9b9fb0a7", size = 15079, upload-time = "2025-06-27T20:19:03.994Z" },
+]
