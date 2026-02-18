@@ -4,10 +4,7 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = [
-    "flak>=0.1.5",
-    "numba>=0.63.1",
-]
+dependencies = []
 [build-system]
 requires=["hatchling"]
 build-backend="hatchling.build"
